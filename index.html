@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="src/output.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Catalog</title>
+  <!-- Include Tailwind CSS -->
+  <link href="src/output.css" rel="stylesheet">
 </head>
-<body>
-    <h1> Product Catalog</h1>
+
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+  <form class="bg-white p-8 rounded shadow-md w-96">
+    
+    <label for="productsName" class="block text-sm font-medium text-gray-700">Product Name</label>
+    <input type="text" id="productsName" name="productsName" class="mt-1 p-2 w-full border rounded-md">
+
+    <label for="fullName" class="block mt-4 text-sm font-medium text-gray-700">Model</label>
+    <input type="text" id="fullName" name="fullName" class="mt-1 p-2 w-full border rounded-md">
+
+    <label for="cost" class="block mt-4 text-sm font-medium text-gray-700">Cost</label>
+    <input type="number" id="cost" name="cost" class="mt-1 p-2 w-full border rounded-md">
+
+    <label for="qty" class="block mt-4 text-sm font-medium text-gray-700">Quantity</label>
+    <input type="number" id="qty" name="qty" class="mt-1 p-2 w-full border rounded-md">
 
 
-    <script src="app.js"></script>
+    <!-- <button onclick="function myButtonAlert()" type="submit" class="mt-6 bg-blue-500 text-white p-2 rounded-md w-full">Submit Catalog</button> -->
+  </form>
+
+
+  <!-- Include JS Script -->
+  <script src="app.js"></script>
+
 </body>
+
 </html>

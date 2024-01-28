@@ -114,4 +114,8 @@ for (
 
 // for (let inventory){}
 //alert
-alert(productCatalog)
+// alert(productCatalog)
+
+//  function myButtonAlert(){
+    // alert(productCatalog)
+// }
