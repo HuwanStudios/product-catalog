@@ -1,8 +1,6 @@
-#Goal
-Develop the MVP for a product catalog. This catalog allows a user to add a product's name, model, cost and quantity to the inventory. The maximum items they can add is 5.
+#Goal 
+Develop the MVP for a product catalog. Catalog allows a user to add a product's name, model, cost and quantity to the inventory. The maximum items they can add is 5.
 
-/**
-You've been tasked to develop the MVP for a product catalog. 
 
 This catalog allows a user to add a 
 - product's name, 
@@ -10,8 +8,6 @@ This catalog allows a user to add a
 - cost and 
 - quantity to the inventory. 
 
-The maximum items they can add is 5.
- */
 
 #An approach
 Create an array to hold the inventory (think `let`)
