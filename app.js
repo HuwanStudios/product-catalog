@@ -114,4 +114,4 @@ for (
 
 // for (let inventory){}
 //alert
-// alert(productCatalog[myChecker])
+alert(productCatalog)
